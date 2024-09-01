@@ -1,0 +1,26 @@
+Task 2:
+
+START
+//INPUT
+INPUT num1,num2,num3
+//PROCESS STATEMENT
+Set sum to (-num1-num2-num3)
+Set sum to *(-)
+PRINT sum
+END
+
+Task 3:
+
+START
+//INPUT
+INPUT num1, num2, operator
+//PROCESS STEP
+Set ans to 0
+//CONDITIONAL STATEMENT
+if operator == '+' then 
+    set ans to (num1 + num2)
+else if operator == '-' then 
+    set ans to (num1 - num2)
+else 
+    PRINT "Enter a valid operator" 
+END
